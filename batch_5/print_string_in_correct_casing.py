@@ -10,3 +10,4 @@ for part in name_parts:
 # Use the 'join()' method with an empty space to join the each string with spaces
 modified_name = " ".join(map(str, new_parts))
 # Print the modified string
+print(modified_name)
