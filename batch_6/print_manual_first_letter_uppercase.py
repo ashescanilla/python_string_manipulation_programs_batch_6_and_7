@@ -20,3 +20,4 @@ if text:
 else:
     capitalized_text = text
 # Print the result
+print("Capitalized string:", capitalized_text)
