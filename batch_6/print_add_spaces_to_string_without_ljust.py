@@ -11,3 +11,4 @@ else:
     # If no padding is needed, keep the string as is
     padded_text = text
 # Print the result
+print("Padded string:", repr(padded_text)) 
