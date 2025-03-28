@@ -1,4 +1,6 @@
 # Get user input
+text = input("Enter a string: ")
+total_length = int(input("Enter the desired total length: "))
 # Check if the string needs padding
     # Calculate how many spaces are needed
     # Add spaces at the end using concatenation
