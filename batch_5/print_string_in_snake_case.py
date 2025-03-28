@@ -5,3 +5,4 @@ full_name = full_name.lower()
 # Use the 'replace()' method to replace the spaces with underscores
 full_name = full_name.replace(" ", "_")
 # Print the modified string
+print(full_name)
