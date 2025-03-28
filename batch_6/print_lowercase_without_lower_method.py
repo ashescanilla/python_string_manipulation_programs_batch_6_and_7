@@ -12,3 +12,4 @@ for char in text:
         # Keep the character unchanged if it's not uppercase
         lowercase_text += char
 # Print the converted lowercase string
+print("String in lowercase:", lowercase_text)
