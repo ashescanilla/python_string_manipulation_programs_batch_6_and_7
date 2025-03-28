@@ -25,4 +25,5 @@ for word in words:
         title_case_word = first_char + remaining_chars
         title_case_words.append(title_case_word)
 # Join the processed words with spaces to form the final title-cased string
+title_case_text = " ".join(title_case_words)
 # Display the result
