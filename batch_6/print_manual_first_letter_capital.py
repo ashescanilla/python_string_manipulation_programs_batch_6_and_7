@@ -22,5 +22,7 @@ for word in words:
                 # Keep the character unchanged if it's not uppercase
                 remaining_chars += char
         # Combine the capitalized first letter with the rest of the word
+        title_case_word = first_char + remaining_chars
+        title_case_words.append(title_case_word)
 # Join the processed words with spaces to form the final title-cased string
 # Display the result
