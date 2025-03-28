@@ -9,3 +9,4 @@ else:
     # Return original string if no prefix match
     result = text
 # Print the result after removing the specified prefix (if found)
+print("String after removing prefix:", result)
