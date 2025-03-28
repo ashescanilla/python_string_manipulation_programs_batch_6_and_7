@@ -15,3 +15,4 @@ for char in text:
         # Keep non-alphabetic characters unchanged
         swapped_text += char
 # Print the result
+print("String with reversed case:", swapped_text)
