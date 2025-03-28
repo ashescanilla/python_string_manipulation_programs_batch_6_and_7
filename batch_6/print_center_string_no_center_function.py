@@ -13,3 +13,4 @@ else:
     # If no centering is needed, keep the string as is
     centered_text = text
 # Print the result
+print("Centered string:", repr(centered_text))
