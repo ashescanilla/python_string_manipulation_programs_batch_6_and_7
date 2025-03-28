@@ -3,6 +3,7 @@ text = input("Enter a string: ")
 # Split the input string into a list of words using spaces as delimiters
 words = text.split()
 # Create an empty list to store the words after applying title case
+title_case_words = []
 # Iterate through each word to apply title case
         # Check if the first character is a lowercase letter and convert it to uppercase using ASCII
             # Keep the first character unchanged if it's not a lowercase letter
