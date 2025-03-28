@@ -6,4 +6,5 @@ index = 0
 while index < len(user_input) and user_input[index] == ' ':
     index += 1   
 # Extract the string from the first non-space character
+trimmed_string = user_input[index:]
 # Print the result
