@@ -8,3 +8,4 @@ while index < len(user_input) and user_input[index] == ' ':
 # Extract the string from the first non-space character
 trimmed_string = user_input[index:]
 # Print the result
+print("String without leading spaces:", trimmed_string)
