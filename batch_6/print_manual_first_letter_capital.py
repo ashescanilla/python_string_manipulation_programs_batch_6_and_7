@@ -27,3 +27,4 @@ for word in words:
 # Join the processed words with spaces to form the final title-cased string
 title_case_text = " ".join(title_case_words)
 # Display the result
+print("Title-cased string:", title_case_text)
