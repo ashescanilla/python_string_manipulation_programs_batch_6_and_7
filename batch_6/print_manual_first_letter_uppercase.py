@@ -8,6 +8,15 @@ if text:
     else:
         first_char = text[0]
     # Convert the remaining characters to lowercase using a loop
+    remaining_chars = ""
+    for char in text[1:]:
+        if 'A' <= char <= 'Z':
             # Convert to lowercase using ASCII adjustment
+            remaining_chars += chr(ord(char) + 32)
+        else:
+            remaining_chars += char
     # Combine the first character and the rest of the string
+    capitalized_text = first_char + remaining_chars
+else:
+    capitalized_text = text
 # Print the result
