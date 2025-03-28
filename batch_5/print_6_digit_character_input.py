@@ -9,3 +9,4 @@ zeros = "0" * no_of_zeros
 # Add the zeros before the inputted number
 new_number = zeros + num_input
 # Print the modified number
+print(new_number)
