@@ -9,3 +9,7 @@ for char in text:
         all_uppercase = False
         break
 # Print the result
+if all_uppercase:
+    print("All characters are uppercase.")
+else:
+    print("Not all characters are uppercase.")
