@@ -14,7 +14,13 @@ for word in words:
             # Keep the first character unchanged if it's not a lowercase letter
             first_char = word[0]
         # Convert the remaining characters to lowercase using ASCII if they are uppercase
+        remaining_chars = ""
+        for char in word[1:]:
+            if 'A' <= char <= 'Z':
+                remaining_chars += chr(ord(char) + 32)
+            else:
                 # Keep the character unchanged if it's not uppercase
+                remaining_chars += char
         # Combine the capitalized first letter with the rest of the word
 # Join the processed words with spaces to form the final title-cased string
 # Display the result
