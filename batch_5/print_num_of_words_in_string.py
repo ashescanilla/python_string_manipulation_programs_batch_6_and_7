@@ -5,3 +5,4 @@ words = statement.split()
 # Get the number of elements in the list using the len() method
 word_count = len(words)
 # Print the number of elements as the number of words
+print(word_count)
