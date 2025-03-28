@@ -1,4 +1,5 @@
 # Prompt the user to enter a string
+text = input("Enter a string: ")
 # Split the input string into a list of words using spaces as delimiters
 # Create an empty list to store the words after applying title case
 # Iterate through each word to apply title case
