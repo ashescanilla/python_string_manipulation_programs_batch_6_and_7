@@ -7,4 +7,6 @@ def print_remove_suffix_without_removesuffix(text, suffix):
     else:
         result = text
     # Display the results
+    print(f"Original String: '{text}'")
+    print(f"String Without Suffix: '{result}'")
 # Get user input and suffix to remove
