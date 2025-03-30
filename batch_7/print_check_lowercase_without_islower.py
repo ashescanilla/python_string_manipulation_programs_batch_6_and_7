@@ -16,3 +16,4 @@ def print_check_lowercase_without_islower(text):
     else:
         print("The string is not in lowercase.")
 # Get user input and check if it is lowercase
+user_input = input("Enter a string to check if it is lowercase: ")
