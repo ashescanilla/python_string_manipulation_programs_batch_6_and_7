@@ -10,3 +10,6 @@ def print_remove_suffix_without_removesuffix(text, suffix):
     print(f"Original String: '{text}'")
     print(f"String Without Suffix: '{result}'")
 # Get user input and suffix to remove
+user_input = input("Enter a string: ")
+suffix_input = input("Enter the suffix to remove: ")
+print_remove_suffix_without_removesuffix(user_input, suffix_input)
