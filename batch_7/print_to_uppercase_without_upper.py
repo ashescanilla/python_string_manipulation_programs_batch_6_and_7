@@ -15,3 +15,5 @@ def print_to_uppercase_without_upper_function(text):
     print(f"Original String: '{text}'")
     print(f"Uppercase String: '{result}'")
 # Get user input and convert to uppercase
+user_input = input("Enter a string to convert to uppercase: ")
+print_to_uppercase_without_upper_function(user_input)
