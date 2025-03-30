@@ -12,4 +12,6 @@ def print_to_uppercase_without_upper_function(text):
             # If it's not a lowercase letter, add it to the result as is
             result += char
     # Print the original and converted strings
+    print(f"Original String: '{text}'")
+    print(f"Uppercase String: '{result}'")
 # Get user input and convert to uppercase
