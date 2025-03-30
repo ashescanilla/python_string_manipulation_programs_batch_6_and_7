@@ -11,3 +11,5 @@ def print_remove_trailing_spaces_without_rstrip(text):
     print(f"Input String: '{text}'")
     print(f"String Without Trailing Spaces: '{result}'")
 # Get user input and remove trailing spaces
+user_input = input("Enter a string with trailing spaces: ")
+print_remove_trailing_spaces_without_rstrip(user_input)
