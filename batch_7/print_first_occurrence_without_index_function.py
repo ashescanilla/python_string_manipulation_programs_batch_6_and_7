@@ -7,6 +7,7 @@ def print_first_occurrence_without_index_function(text, char_to_find):
             print(f"The first occurrence of '{char_to_find}' is at index {i}.")
             return
     # If the character is not found, display a message
+    print(f"'{char_to_find}' is not found in the string.")
 # Prompt the user to enter a string
 # Prompt the user to enter the character to find within the string
 # Ensure only one character is provided for searching
