@@ -15,3 +15,7 @@ user_input = input("Enter a string: ")
 # Prompt the user to enter the character whose occurrences are to be counted
 char_input = input("Enter the character to count: ")
 # Ensure only one character is provided for counting
+if len(char_input) == 1:
+    print_character_count_without_count_function(user_input, char_input)
+else:
+    print("Please enter a single character for counting.")
