@@ -9,5 +9,6 @@ def print_first_occurrence_without_index_function(text, char_to_find):
     # If the character is not found, display a message
     print(f"'{char_to_find}' is not found in the string.")
 # Prompt the user to enter a string
+user_input = input("Enter a string: ")
 # Prompt the user to enter the character to find within the string
 # Ensure only one character is provided for searching
