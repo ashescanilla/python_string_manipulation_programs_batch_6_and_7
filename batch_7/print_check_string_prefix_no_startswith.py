@@ -10,6 +10,7 @@ def print_string_starts_with_no_startswith(text, prefix):
             print(f"'{text}' does not start with '{prefix}'")
             return
     # If all characters match, print the success message
+    print(f"'{text}' starts with '{prefix}'")
 # Prompt the user to enter a string
 # Prompt the user to enter the prefix to check
 # Call the function to check if the input string starts with the specified prefix
