@@ -8,5 +8,6 @@ def print_right_justify_without_rjust(text, width):
     print(f"Original String: '{text}'")
     print(f"Right-Justified String: '{result}'")
 # Prompt the user to enter a string
+user_input = input("Enter a string: ")
 # Prompt the user to enter the desired width for right-justification
 # Call the function to right-justify the input string without using the rjust() method
