@@ -3,6 +3,7 @@ def print_zero_fill_without_zfill(text, width):
     # Calculate how many zeros are needed to fill the text to the specified width
     zeros_needed = max(0, width - len(text))
     # Create a string with the required zeros and concatenate it with the text
+    result = '0' * zeros_needed + text  
     # Display the result
 # Prompt the user to enter a numeric string
 # Prompt the user to enter the desired width for zero-filling
