@@ -8,5 +8,6 @@ def print_zero_fill_without_zfill(text, width):
     print(f"Original String: '{text}'")
     print(f"Zero-Filled String: '{result}'")
 # Prompt the user to enter a numeric string
+user_input = input("Enter a number: ")
 # Prompt the user to enter the desired width for zero-filling
 # Call the function to zero-fill the input string to the specified width without using the zfill() method
