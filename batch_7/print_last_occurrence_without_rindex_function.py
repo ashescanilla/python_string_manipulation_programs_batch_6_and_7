@@ -12,4 +12,5 @@ def print_last_occurrence_without_rindex_function(text, char_to_find):
 # Prompt the user to enter a string
 user_input = input("Enter a string: ")
 # Prompt the user to enter the character to find within the string
+char_input = input("Enter the character to find: ")
 # Ensure only one character is provided for searching
