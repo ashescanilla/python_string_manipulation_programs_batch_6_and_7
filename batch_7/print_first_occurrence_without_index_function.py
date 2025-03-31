@@ -13,3 +13,7 @@ user_input = input("Enter a string: ")
 # Prompt the user to enter the character to find within the string
 char_input = input("Enter the character to find: ")
 # Ensure only one character is provided for searching
+if len(char_input) == 1:
+    print_first_occurrence_without_index_function(user_input, char_input)
+else:
+    print("Please enter a single character to find.")
