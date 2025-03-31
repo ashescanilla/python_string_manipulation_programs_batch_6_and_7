@@ -13,4 +13,5 @@ def print_character_count_without_count_function(text, char_to_count):
 # Prompt the user to enter a string
 user_input = input("Enter a string: ")
 # Prompt the user to enter the character whose occurrences are to be counted
+char_input = input("Enter the character to count: ")
 # Ensure only one character is provided for counting
