@@ -5,6 +5,8 @@ def print_right_justify_without_rjust(text, width):
     # Create a string with the required spaces and concatenate it with the text
     result = ' ' * spaces_needed + text 
     # Display the result
+    print(f"Original String: '{text}'")
+    print(f"Right-Justified String: '{result}'")
 # Prompt the user to enter a string
 # Prompt the user to enter the desired width for right-justification
 # Call the function to right-justify the input string without using the rjust() method
