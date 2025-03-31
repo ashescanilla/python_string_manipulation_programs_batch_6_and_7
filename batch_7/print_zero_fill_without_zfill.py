@@ -12,3 +12,4 @@ user_input = input("Enter a number: ")
 # Prompt the user to enter the desired width for zero-filling
 width_input = int(input("Enter the desired width: "))
 # Call the function to zero-fill the input string to the specified width without using the zfill() method
+print_zero_fill_without_zfill(user_input, width_input)
